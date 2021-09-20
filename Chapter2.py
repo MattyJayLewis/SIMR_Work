@@ -70,13 +70,14 @@ var_a = float(input("Input first number: "))
 var_b = float(input("Input second number: "))
 
 
-print("These numbers added together are " + str(var_a + var_b)
-print("These numbers subtracted are " + str(var_a + var_b)
-print("These numbers multiplied are " + str(var_a + var_b)
-print("These numbers divided are " + str(var_a + var_b)
+print("These numbers added together are " + str(var_a + var_b))
+print("These numbers subtracted are " + str(var_a - var_b))
+print("These numbers multiplied are " + str(var_a * var_b))
+print("These numbers divided are " + str(var_a / var_b))
 
 
 print("\nThat's all, folks!")
+
       
 ## 2.6.1.11 ##
       
