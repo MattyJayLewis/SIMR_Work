@@ -78,6 +78,13 @@ print("These numbers divided are " + str(var_a / var_b))
 
 print("\nThat's all, folks!")
 
+## 2.6.1.10 ##
+
+x = float(input("Enter value for x: "))
+
+y = float(1 / ((x + 1 / (x + 1 /(x + 1 / x)))))
+
+print("y =", y)
       
 ## 2.6.1.11 ##
       
