@@ -88,6 +88,8 @@ print("y =", y)
 hour = int(input("Starting time (hours): "))
 mins = int(input("Starting time (minutes): "))
 dura = int(input("Event duration (minutes): "))
-time_hour = (hour + dura//60 + (mins+ dura%60)//60)%24
-time_min = (mins+ dura%60)%60
-print("It will end at " + str(time_hour) + ":" + str(time_min))      
+## time_hour variable created to work out the hour mark of the time, this is done by adding the duration to the hour then dividing by 60 to give duration in hours adding this to the minutes left over
+##(modulo equation) and then these 2 added together and "modulo'd" from 24 hours gives the hour for the time  ##
+time_hour = (hour + dura // 60 + (mins+ dura % 60) // 60) % 24 ## The same is then repeated for minutes but worked out for the remainder using modulo. 
+time_min = (mins+ dura%60)%60## The same is then repeated for minutes but worked out for the remainder using modulo. This is then used with the modulo equation for 60 minutes in the hour to give remaining miniutes ##
+print("It will end at " + str(time_hour) + ":" + str(time_min)) ## These 2 added together as strings then give the expected end time ##
