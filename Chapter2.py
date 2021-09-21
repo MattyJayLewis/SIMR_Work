@@ -1,3 +1,5 @@
+## Matthew Lewis, Chapter 2, 20/092021 ##
+
 ## Chap2.2.1 ##
 
 print ('I\'m')
@@ -46,20 +48,17 @@ print("y =", y)
 
 #this program computes the number of seconds in a given number of hours
 #this program was written two days ago
-
 a = 3 # number of hours
 seconds = 3600 # number of seconds in 1 hour
 
 print("Hours: ", a) #printing the number of hours
 print("Seconds in Hours: ", a * seconds) # printing the number of seconds in a given number of hours
-
 print("Goodbye.")
 #this is the end of the program that computes the number of seconds in 3 hour
 
 ## 2.6.1 ## 
 
 # Testing TypeError message.
-
 anything = float (input("Enter a number: "))
 something = anything ** 2.0
 print(anything, "to the power of 2 is", something)
@@ -74,8 +73,6 @@ print("These numbers added together are " + str(var_a + var_b))
 print("These numbers subtracted are " + str(var_a - var_b))
 print("These numbers multiplied are " + str(var_a * var_b))
 print("These numbers divided are " + str(var_a / var_b))
-
-
 print("\nThat's all, folks!")
 
 ## 2.6.1.10 ##
