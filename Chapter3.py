@@ -90,11 +90,11 @@ while True:
 ## 3.2.1.10 ##        
 
 user_word = input("Enter a word: ")
-user_word = user_word.upper()
+user_word = user_word.upper() ## Converts word to upper-case ##
 
 for letter in user_word:
     # Complete the body of the for loop.
-    if letter == "A":
+    if letter == "A": ## passes over if it is equal to input ##
         continue
     elif letter == "E":
         continue
@@ -105,10 +105,11 @@ for letter in user_word:
     elif letter == "U":
         continue
     else: 
-        print(letter, end="\n")
+        print(letter, end="\n") ## Prints remainder of letters on new lines ##
       
-3.2.1.11
+## 3.2.1.11 ##
 
+## Whole code is as previous but with the removal of \n so that it prints on one line ##
 user_word = input("Enter a word: ")
 user_word = user_word.upper()
 
@@ -127,5 +128,5 @@ for letter in user_word:
     else: 
         print(letter, end="")
       
-3.2.1.14
+## 3.2.1.15 ##
 
