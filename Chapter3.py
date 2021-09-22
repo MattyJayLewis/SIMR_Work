@@ -169,7 +169,7 @@ print(beatles)
 
 beatles.append("John Lennon")
 beatles.append("Paul McCartney")
-beatles.append("George Harrison")
+beatles.append("George Harrison") ## Appends each name to the list ## 
 
 print("Step 2:", beatles)
 
@@ -177,7 +177,7 @@ print("Step 2:", beatles)
 
 for i in range(2):
     member = input("next members : ")
-    beatles.append(member)
+    beatles.append(member) ## input new members ##
 
 print("Step 3:", beatles)
 
@@ -185,15 +185,15 @@ print("Step 3:", beatles)
 
 for i in range(2):
     length = len(beatles)-1
-    del beatles [length]
+    del beatles [length] ## removes the 2 new values ##
 
 print("Step 4:", beatles)
 
 # step 5
 
-beatles.insert(0, "Ringo Starr")
-print("Step 5:", beatles)
+beatles.insert(0, "Ringo Starr") 
+print("Step 5:", beatles) ## Inserts new value at start of list ##
 
 
-# testing list legth
-print("The Fab", len(beatles))
+# testing list length
+print("The Fab", len(beatles)) ## Prints new list ##
