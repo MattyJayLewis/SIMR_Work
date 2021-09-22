@@ -142,3 +142,20 @@ while n != 1:
 
 print (steps)
 
+## 3.4.1.6 ##
+
+hat_list = [1, 2, 3, 4, 5]  # This is an existing list of numbers hidden in the hat.
+
+# Step 1: write a line of code that prompts the user
+# to replace the middle number with an integer number entered by the user.
+user_number = int(input("Enter number to replace middle value:"))
+hat_list[2] = user_number ## replaces the middle number 92, due to the length of list with user input ##
+
+# Step 2: write a line of code that removes the last element from the list.
+del hat_list[4] ## Deletes the last value in the list (on this occasion the list is 5 values long) ## 
+# Step 3: write a line of code that prints the length of the existing list.
+print (len(hat_list)) ## prints the length of the hatlist( the amount of values) ##
+print(hat_list)
+
+## 3.4.1.13 ##
+
