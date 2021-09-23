@@ -128,6 +128,18 @@ for letter in user_word:
     else: 
         print(letter, end="")
       
+## 3.2.1.14 ##
+
+blocks = int(input("Enter the number of blocks: "))
+
+# Write your code here.
+height = 0
+while blocks > height:
+    height +=1
+    blocks -= height
+
+print("The height of the pyramid:", height)
+      
 ## 3.2.1.15 ##
 
 n = int(input("Enter a strictly positive integer: "))
