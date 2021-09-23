@@ -133,10 +133,10 @@ for letter in user_word:
 blocks = int(input("Enter the number of blocks: "))
 
 # Write your code here.
-height = 0
+height = 0 ## The pyramid has not been built yet so will naturally be 0 ##
 while blocks > height:
-    height +=1
-    blocks -= height
+    height +=1 ## Each run through will increase amount of blocks by 1 s equal to height = height + 1 ##
+    blocks -= height ## Is equivalent to blocks = blocks - height ## 
 
 print("The height of the pyramid:", height)
       
